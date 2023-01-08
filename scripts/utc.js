@@ -1,7 +1,7 @@
 var todayDate = new Date();
 
 function askTZ() {
-    var response = prompt("what timezone are u from: GMT+3:30 & GMT-4 are examples (caps needed)")
+    var response = prompt("what timezone are u from: GMT+3.5, GMT-4.75 & GMT-4 are examples (caps needed)")
 
     if (response == 'GMT') {
         setInterval(function timing() {
