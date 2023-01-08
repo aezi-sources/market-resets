@@ -1,0 +1,81 @@
+/* light blue - #aeffec */
+
+/* Importing Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans:wght@700&display=swap');
+
+/* Main File */
+
+body {
+    background-color: black;
+}
+
+.current-time {
+    width: 530px;
+    border: 4px solid #ffdffd;
+
+}
+
+.main-build {
+    text-align: center;
+    padding-top: 4px;
+    margin-left: 34%;
+}
+
+.ct{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 45px;
+}
+
+.current-time > button {
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+    font-size: 28px;
+}
+
+.function {
+    border: 3px solid #141414;
+    background-color: #444444;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* Grids */
+
+.modes {
+    padding-top: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    padding: 5px;
+}
+  
+.grid-container > div {
+    color: rgba(255, 248, 248, 0.8);
+    background-color: #28b493;
+    border: 3px solid darkblue;
+}
+
+.events {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Links */
+
+a {
+    color: white;
+    background-color: none;
+}
+
+a:hover {
+    color: bisque;
+}
+
+
