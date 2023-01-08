@@ -3,10 +3,11 @@
 /* Importing Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 /* Main File */
 
-* {
+body {
     background-color: black;
 }
 
@@ -40,4 +41,26 @@
     width: 100%;
     padding-left: 12px;
     padding-right: 12px;
+}
+
+/* Table */
+
+.modes {
+    padding-top: 40px;
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+  
+table {
+    width: 100%;
+}
+  
+th, td {
+    padding: 15px;
+    color:floralwhite;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
 }
